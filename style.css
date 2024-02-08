@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    color: #0A3871;
+}
+
+.cabecalho{
+    padding: 15px 0;
+}
+
+.container{
+    padding: 0% 10%;
+    display: flex;
+    gap: 30px;
+}
+
+.area__texto{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    
+}
+
+.container__botao{
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+button{
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    border-radius: 10px;
+    padding: 3% 5%;
+    cursor: pointer;
+}
+
+
+.area__resultado{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 40%;
+    height: 450px;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+}
+
+#resultado{
+    font-size: 30px;
+}
+
+.inputs{
+    height: 10rem;
+    background-color: #E5E5E5;
+    color: #0A3871;
+	border: hidden;
+    outline: none;
+    font-size: 30px;
+}
+
+.destaqueTexto{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5% 0;
+}
+
+.resultado__imagem{
+    width: 80%;
+}
+
+.area__texto__aviso{
+    font-size: 18px;
+    color: #495057;
+}
+
+.rodape{
+    padding: 24px;
+    text-align: center;
+}
+
+button:hover{
+    opacity: 0.8;
+}

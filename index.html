@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="cabecalho" src="./assets/logoAlura.png" alt="logo da Alura">
+    <main class="container">
+        <div class="area__texto">
+            <textarea class="inputs" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <p class="area__texto__aviso">&#10069; Apenas letras minúsculas e sem acento.</p>
+            <div class="container__botao">
+                <button onclick="criptografar()">Criptografar</button>
+                <button onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </div> 
+        <div class="area__resultado">
+            <div id="painel__1">
+                <img class="resultado__imagem" src="/assets/foto.png">
+                <p class="destaqueTexto">Nenhuma mensagem encontrada</p>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <p id="resultado"></p>
+            <div id="painel__2">
+                <button onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </main> 
+    <footer class="rodape">
+        <p>Alan Sales. 2024</p>
+    </footer>  
+    <script src="app.js"></script>
+</body>
+</html>
