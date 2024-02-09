@@ -82,7 +82,7 @@ button{
 }
 
 .area__texto__aviso{
-    font-size: 18px;
+    font-size: 16px;
     color: #495057;
 }
 
@@ -93,4 +93,31 @@ button{
 
 button:hover{
     opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .area__texto{
+        width: auto;
+    }
+
+    .area__resultado{
+        width: auto;
+        height: auto;
+    }
+
+    .resultado__imagem{
+        display: none;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .container__botao{
+        flex-direction: column;
+    }
+
 }
