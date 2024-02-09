@@ -11,10 +11,10 @@
     <main class="container">
         <div class="area__texto">
             <textarea class="inputs" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
-            <p class="area__texto__aviso">&#10069; Apenas letras minúsculas e sem acento.</p>
+            <p id="textoAviso" class="area__texto__aviso">&#10069; Apenas letras minúsculas e sem acento.</p>
             <div class="container__botao">
-                <button onclick="criptografar()">Criptografar</button>
-                <button onclick="descriptografar()">Descriptografar</button>
+                <button onclick="validarEntradaCrip()">Criptografar</button>
+                <button onclick="validarEntradaDescrip()">Descriptografar</button>
             </div>
         </div> 
         <div class="area__resultado">
